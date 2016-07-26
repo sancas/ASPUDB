@@ -16,8 +16,11 @@
     padding: 8px;
 }
 .boton {
+    width: 30%;
     padding: 15px;
     margin: 15px;
+    font-size: 25px;
+    border-radius: 50px 50px;
 }
 h2 {
     color: white;
