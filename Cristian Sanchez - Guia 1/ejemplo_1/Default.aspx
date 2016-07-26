@@ -4,21 +4,26 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>Guia 1 - Ejemplo 1</title>
+    <link href="forma.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+        <div id="caja_superior">
+            <h2>Sumar 2 numeros</h2>
+        </div>
+        <div id="caja_basica">
     
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <br />
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-        <br />
-        <asp:Button ID="Button1" runat="server" Text="Button" />
-        <br />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+            <asp:TextBox ID="txtNum1" runat="server"></asp:TextBox>
+            <br />
+            <br />
+            <asp:TextBox ID="txtNum2" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="btnSumar" CssClass="boton" runat="server" Text="Sumar" OnClick="btnSumar_Click" />
+            <br />
+            <asp:Label ID="Label1" CssClass="resultado" runat="server" Text="Label"></asp:Label>
     
-    </div>
+        </div>
     </form>
 </body>
 </html>
