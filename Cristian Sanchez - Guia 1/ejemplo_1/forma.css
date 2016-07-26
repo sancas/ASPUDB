@@ -2,16 +2,17 @@
     background-color: beige;
 }
 #caja_superior {
-    width: 500px;
-    margin: 15px auto;
+    width: 90%;
+    margin: 0 auto;
     padding: 8px;
     text-align: center;
-    background-color: blue;
+    background-color: skyblue;
+    border-radius: 50px 50px;
 }
 #caja_basica {
-    width: 400px;
+    width: 70%;
     margin: 15px auto;
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 .boton {
@@ -25,4 +26,11 @@ h2 {
     padding: 25px;
     margin: 15px;
     font-size: 25px;
+}
+.txt {
+    border-radius: 50px 50px;
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 45px;
 }

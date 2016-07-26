@@ -14,10 +14,10 @@
         </div>
         <div id="caja_basica">
     
-            <asp:TextBox ID="txtNum1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNum1" CssClass="txt" placeholder="Numero 1" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:TextBox ID="txtNum2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtNum2" CssClass="txt" placeholder="Numero 2" runat="server"></asp:TextBox>
             <br />
             <asp:Button ID="btnSumar" CssClass="boton" runat="server" Text="Sumar" OnClick="btnSumar_Click" />
             <br />
