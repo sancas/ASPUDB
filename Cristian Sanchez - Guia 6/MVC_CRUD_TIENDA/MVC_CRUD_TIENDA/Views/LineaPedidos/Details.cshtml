@@ -1,0 +1,42 @@
+﻿@model MVC_CRUD_TIENDA.Models.LINEAPEDIDO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LINEAPEDIDO</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PEDIDO.ID_PEDIDO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PEDIDO.ID_PEDIDO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PRODUCTO.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PRODUCTO.NOMBRE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UNIDADES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UNIDADES)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_LINEAPEDIDO }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
