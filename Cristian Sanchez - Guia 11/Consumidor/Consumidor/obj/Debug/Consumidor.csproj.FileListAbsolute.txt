@@ -1,0 +1,6 @@
+F:\Documents\Universidad\ASPUDB\Cristian Sanchez - Guia 11\Consumidor\Consumidor\bin\Consumidor.dll.config
+F:\Documents\Universidad\ASPUDB\Cristian Sanchez - Guia 11\Consumidor\Consumidor\bin\Consumidor.dll
+F:\Documents\Universidad\ASPUDB\Cristian Sanchez - Guia 11\Consumidor\Consumidor\bin\Consumidor.pdb
+F:\Documents\Universidad\ASPUDB\Cristian Sanchez - Guia 11\Consumidor\Consumidor\obj\Debug\Consumidor.csprojResolveAssemblyReference.cache
+F:\Documents\Universidad\ASPUDB\Cristian Sanchez - Guia 11\Consumidor\Consumidor\obj\Debug\Consumidor.dll
+F:\Documents\Universidad\ASPUDB\Cristian Sanchez - Guia 11\Consumidor\Consumidor\obj\Debug\Consumidor.pdb
