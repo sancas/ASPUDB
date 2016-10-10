@@ -1,0 +1,15 @@
+Usuarios de la base de datos.
+
+Administrador 
+admin@asturias.com
+
+Cliente
+cliente@asturias.com
+
+Usuario
+usuario@asturias.com
+
+Password para ambos:
+P@ssw0rd
+
+La base de datos Asturias.sql Contiene todos los datos iniciales para el funcionamiento optimo del programa, Web.config contiene la cadena de conexion a la base de datos la cual se debe de cambiar una vez se haya creado la base de datos

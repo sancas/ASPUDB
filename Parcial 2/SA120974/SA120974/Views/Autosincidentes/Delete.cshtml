@@ -1,0 +1,40 @@
+﻿@model SA120974.Models.Autosincidente
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Esta seguro que desea eliminar esto?</h3>
+<div>
+    <h4>Autosincidente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.auto.placa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.auto.placa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.incidente.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.incidente.id)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+            @Html.ActionLink("Regresar a la Lista", "Index")
+        </div>
+    }
+</div>

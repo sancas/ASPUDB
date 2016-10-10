@@ -1,0 +1,34 @@
+﻿@model SA120974.Models.Autosincidente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Autosincidente</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.auto.placa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.auto.placa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.incidente.id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.incidente.id)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Regresar a la Lista", "Index")
+</p>

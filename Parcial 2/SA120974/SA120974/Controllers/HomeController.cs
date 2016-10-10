@@ -13,16 +13,18 @@ namespace SA120974.Controllers
             return View();
         }
 
+        [Authorize]
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Seguros Asturias tu mejor opcion.";
 
             return View();
         }
 
+        [Authorize]
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Nuestros datos de contacto.";
 
             return View();
         }
