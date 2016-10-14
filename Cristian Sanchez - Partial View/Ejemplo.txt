@@ -1,0 +1,1 @@
+El ejemplo se encuentra visitiando la direccion /articles/read
